@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Mousa</title>
+    <link href="https://fonts.cdnfonts.com/css/montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="../dist/styles/styles.css">
+</head>
+<body>
+<header class="header">
+    <div class="header__main">
+        <a href="../index.html">
+            <img src="../dist/images/logo.png" alt="logo" class="header__logo">
+        </a>
+        <a href="http://localhost:3002" class="header__online-shop">Онлайн-магазин</a>
+        <div class="vertical-stick"></div>
+        <ul class="header__nav-ul">
+            <div class="div-contain-shop main__nav-li" onmouseover="showWords(this, 'wordBlock4')" onmouseout="hideWords('wordBlock4')">
+                <li class="header__nav-li" >
+                    <a href="../index.html" class="main__nav-li"  >Послуги</a>
+                </li>
+                <div id="wordBlock4" class="hidden__shop" >
+                    <a href="deratization.html">Дератизація</a>
+                    <a href="dezinfection.html" >Дезінфекція</a>
+                </div>
+            </div>
+            <a href="#foo">
+                <li class="header__nav-li contact">Контакти</li>
+            </a>
+        </ul>
+        <div class="header__burger-btn">
+            <img src="../dist/images/menu.png" alt="menu" class="header__open-menu">
+            <img src="../dist/images/cross.png" alt="cross" class="header__cross menu__hidden">
+        </div>
+    </div>
+    <div class="header__burger menu__hidden">
+        <a href="http://localhost:3002" class="header__burger-online-shop">Онлайн-магазин</a>
+        <div class="stick"></div>
+        <ul class="header__burger-menu-ul">
+            <li class="header__burger-menu-li"><a href="http://localhost:3000">Послуги</a></li>
+            <li class="header__burger-menu-li"><a href="http://localhost:3000#advantages">Про нас</a></li>
+            <li class="header__burger-menu-li"><a href="#foo">Контакти</a></li>
+        </ul>
+    </div>
+</header>
+<main>
+    <article class="dezinsection__site">
+        <h1 class="dezinsection__h1">
+            ДЕЗІНСЕКЦІЯ
+        </h1>
+        <a id="showForm" href="#" class="dezinsection__a">
+            ЗАМОВИТИ ПОСЛУГУ
+        </a>
+        <div id="formContainer" style="display: none;">
+            <div class="main-form">
+                <button id="closeForm" class="close-button">×</button>
+                <p class="box">
+                </p>
+                <section class="position">
+                    <section class="space-between">
+                        <h1 class="form-sign">Замовити послугу</h1>
+                    </section>
+                    <p class="hr_or">
+                        -
+                    </p>
+                </section>
+                <form accept="#">
+                    <div class="form-em">
+                        <div class="form-container">
+                            <input class="form-container__input" placeholder="Ваше Ім'я" required="" type="text">
+                        </div>
+                        <div class="form-container">
+                            <input class="form-container__input" type="text" name="phone" id="phone" placeholder="+380(00)000-00-00">
+                        </div>
+                        <div class="form-container">
+                            <input class="form-container__input" placeholder="Ваш Email" required="" type="text">
+                        </div>
+                        <label class="checkbox-center">
+                            <input  class="checkbox" type="checkbox" name="checkbox">
+                            <span class="custom-checkbox">
+
+                    </span>
+                            <h1>
+                                Я ознайомлений та приймаю правила обробки персональних даних
+                            </h1>
+                        </label>
+                        <button class="sumbit" type="submit">
+                            <a href="#"> Замовити послугу</a>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <img class="dezinsection__img" src="bug.png" alt="bug">
+    </article>
+    <section class="dezinsection-info">
+        <div class="dezinsection-info__element-1">
+            Дезінсекція — це комплекс спеціальних заходів за допомогою використання механічних, фізичних, хімічних і біологічних засобів, з метою локалізації та ліквідації шкідливих кліщів та комах.
+            <br>
+            Cеред основних <span class="strong"> механічних засобів</span>, які використовуються для дезінсекційних робіт Нашою компанією є такі:
+            <br> <br>
+            <span class="strong">Електричні прилади</span> (або інсектицидні лампи) для вилову літаючих комах. Дані прилади представлені різноманітним модельним рядом для будь якого типу приміщень. Вони відрізняються між собою зручним дизайном, різним спектром та радіусом дії, з наявністю липкого або феромонного екрану а також моделей з електричною решіткою;
+            <br>
+            <br>
+            <span class="strong">Липкі феромонні пастки</span> для відлову, як повзаючих так і літаючих комах. Дані пастки відрізняються різним складом феромону з метою постійного моніторингу або відлову комах за їх певним видовим складом;
+            <br>
+            <br>
+            <span class="strong">Механічні пастки</span> для вилову комах – використовуються за допомогою використання методу харчових принад що є доволі зручним та економічно ефективним рішенням.
+            <br>
+            <br>
+            <span class="strong">Хімічні методи</span> включають застосування отруйних для комах та кліщів хімічних речовин, зокрема  використання акарицидів та інсектицидів широкого спектру дії. Інсектицидні препарати поділяються на різні групи за характером дії: контактні – проникають крізь зовнішні покриви комах, кишкові – потрапляння інсектициду через органи травлення та інсектициди фумігантної дії – проникають через органи дихальної системи комах.
+        </div>
+        <div class="dezinsection-info__element-2">
+            <h1 class="deratization-info__h1">
+                Дезінсекція. Ефективний спосіб ліквідації кліщів та комах
+            </h1>
+            <p class="dezinsection-info__p">
+                Дезінсекція. Ефективний спосіб ліквідації кліщів та комах
+                Деякі типи шкідників є збудниками різних хвороб та переносять небезпечні інфекції. Боротьба з комахами - це гарантія безпеки для підприємства, складу чи офісу. Як відомо, ніхто не застрахований від появи небажаних шкідників. Дезінcекція від тарганів допоможе вам знезаразити приміщення, забезпечити чистоту та уберегти здоров’я.
+                <br>
+                <br>
+            </p>
+            <h2 class="dezinsection-info__h2">
+                Методи дезінсекції від тарганів, які найкраще працюють<br> <br>
+            </h2>
+            <p class="dezinsection-info__p">
+                Для якісної процедури важливо використовувати інноваційні препарати та ефективне обладнання, яке відповідає часу та запиту. Зокрема, для знищення комах використовують фізичні, механічні, хімічні та біологічні методи. Ми відповідаємо усім вимогам міжнародних стандартів та використовуємо наступні методи:
+            </p>
+            <ul class="dezinsection-info__ul">
+                <li class="dezinsection-info__p">Липкі феромонні пастки для відлову повзаючих комах;</li>
+                <li class="dezinsection-info__p">Локальну обробку гелем;</li>
+                <li class="dezinsection-info__p">Метод аерозольного зрошення;</li>
+                <li class="dezinsection-info__p">Гарячий або холодний туман.</li>
+            </ul>
+            <p class="dezinsection-info__p">
+                Варто звернути увагу на те, що після дезінсекції газом потрібно провести якісне вологе прибирання. Дезінсекцію гарячим або холодним туманом найчастіше використовують для обробки великих складських приміщень, логістичних центрів, виробництв. Для транспортних засобів, які пов’язані з транспортуванням зерна, не менш важлива своєчасна дезінсекція.
+            </p>
+            <br>
+            <h2 class="dezinsection-info__h2">
+                Послуги дезінсекції: фактори, що впливають на вартість
+            </h2>
+            <br>
+            <p class="dezinsection-info__p">
+                Ціна дезінсекції буде залежати від ступеня зараження, розміру вашого приміщення та географічного розташування. У вартість дезінсекції також входить первинна інспекція для того, аби сформувати індивідуальну комерційну пропозицію.
+                <br> <br>
+                Дізнатися детальніше про послуги дезінсекції можна звернувшись по телефону <span class="phone-are">+380 (99) 157-51-51</span> або заповнивши форму на нашому сайті.            Ми проводимо дератизацію в Україні за допомогою сучасного обладнання з міжнародним визнанням та дозволених препаратів, які є безпечними. Окрім того, надаємо усі сертифікати, дозвільні документи, медичні книги та звітну документацію.
+                <br> <br>
+                І пам’ятайте, що турбота про чистоту у вашому просторі (офісі, підприємстві чи складі) - це базові речі, про які не варто забувати або відкладати на потім. Вчасно звертайтеся до спеціальних служб, які професійно допоможуть побороти наявну проблему та зберегти вашу репутацію.
+            </p>
+        </div>
+    </section>
+</main>
+<footer id="foo" class="dezinsection__foo">
+    <div class="dezinsection-foo__contain">
+        <img src="logo-white.png" alt="logo" class="dezinsection-foo__logo">
+        <h1 class="dezinsection-foo__h1-black">
+            ЗАЛИШИЛИСЯ ПИТАННЯ? ПИШІТЬ БУДЬ-ЯКИМ ЗРУЧНИМ СПОСОБОМ
+        </h1>
+    </div>
+    <div class="dezinsection-foo__container">
+        <div class="dezinsection-foo__img">
+            <a target="_blank" href="https://t.me/beezdar"><img class="dezinsection-foo__image foo-hover-img" src="telegram.png" alt="telegram"></a>
+            <a target="_blank" href="https://www.instagram.com/feedderrr/">
+                <img class="dezinsection-foo__image foo-hover-img" src="instagram.png" alt="instagram">
+            </a>
+            <a target="_blank" href="https://www.facebook.com/">
+                <img class="dezinsection-foo__image face foo-hover-img" src="facebook.png" alt="facebook">
+            </a>
+        </div>
+        <div>
+            <h2 title="Vodafone" class="dezinsection-foo__h2-black">
+                +380 (99) 157 51 51
+            </h2>
+            <h2 title="Київстар" class="dezinsection-foo__h2-black">
+                +380 (97) 157 51 51
+            </h2>
+        </div>
+    </div>
+</footer>
+<script src="https://unpkg.com/imask"></script>
+<script src="/dist/scripts/scripts.min.js"></script>
+</body>
+</html>

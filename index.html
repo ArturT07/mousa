@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>Mousa</title>
+  <link href="https://fonts.cdnfonts.com/css/montserrat" rel="stylesheet">
+  <link rel="stylesheet" href="dist/styles/styles.css">
+  <link rel="shortcut icon" href="dist/images/favicon.png" type="image/x-icon">
+</head>
+<body>
+<div class="preload" id="page-preloader">
+  <div class="load">
+    <hr/><hr/><hr/><hr/>
+  </div>
+</div>
+<header class="header">
+  <div class="header__main">
+    <a href="index.html"> <img src="dist/images/logo.png" alt="logo" class="header__logo"></a>
+    <a href="http://localhost:64100" class="header__online-shop">Онлайн-магазин</a>
+
+    <div class="vertical-stick"></div>
+    <ul class="header__nav-ul">
+      <div class="div-contain-shop main__nav-li" onmouseover="showWords(this, 'wordBlock2')" onmouseout="hideWords('wordBlock2')">
+        <li class="header__nav-li" >
+          <a href="#cards" class="main__nav-li"  >Послуги</a>
+        </li>
+        <div id="wordBlock2" class="hidden__shop-main">
+          <a href="html/deratization.html" >Дератизація</a>
+          <a href="html/dezinsection.html" >Дезінсекція</a>
+          <a href="html/dezinfection.html">Дезінфекція</a>
+        </div>
+      </div>
+      <a href="#advantages"> <li class="header__nav-li contact">Про нас</li> </a>
+      <a href="#foo">
+        <li class="header__nav-li">Контакти</li>
+      </a>
+    </ul>
+    <div class="header__burger-btn">
+      <img src="dist/images/menu.png" alt="menu" class="header__open-menu">
+      <img src="dist/images/cross.png" alt="cross" class="header__cross menu__hidden">
+    </div>
+  </div>
+
+  <div class="header__burger menu__hidden">
+    <a href="http://localhost:3002" class="header__burger-online-shop">Онлайн-магазин</a>
+    <div class="stick"></div>
+    <ul class="header__burger-menu-ul">
+      <li class="header__burger-menu-li"><a href="#cards" class="header-burder-btn">Послуги</a></li>
+      <li class="header__burger-menu-li"><a href="#advantages" class="header-burder-btn">Про нас</a></li>
+      <li class="header__burger-menu-li"><a href="#foo" class="header-burder-btn">Контакти</a></li>
+    </ul>
+  </div>
+</header>
+<main>
+  <section id="cards" class="cards">
+    <div class="deratization">
+      <h1 class="deratization__main-text">дератизація</h1>
+      <div class="deratization__stick"></div>
+      <div class="deratization__info">
+        <ul class="deratization__ul">
+          <li class="deratization__li">
+            <img src="dist/images/mouse.png" alt="png" class="deratization__mouse">
+            <p class="deratization__li-p">Усунення щурів</p>
+          </li>
+          <li class="deratization__li">
+            <img src="dist/images/mouse.png" alt="png" class="deratization__mouse">
+            <p class="deratization__li-p">Усунення мишей</p>
+          </li>
+          <li class="deratization__li">
+            <img src="dist/images/mouse.png" alt="png" class="deratization__mouse">
+            <p class="deratization__li-p">Усунення полівок</p>
+          </li>
+          <li class="deratization__li">
+            <img src="dist/images/mouse.png" alt="png" class="deratization__mouse">
+            <p class="deratization__li-p">Відлякування кротів</p>
+          </li>
+        </ul>
+        <a href="html/deratization.html" class="deratization__button">Детальніше</a>
+      </div>
+    </div>
+    <div class="dezinsection">
+      <h1 class="dezinsection__main-text">Дезінсекція</h1>
+      <div class="dezinsection__stick"></div>
+      <ul class="dezinsection__ul">
+        <li class="dezinsection__li">
+          <img src="dist/images/bug.png" alt="png" class="dezinsection__bug">
+          <p class="dezinsection__li-p">Знищення клопів</p>
+        </li>
+        <li class="dezinsection__li">
+          <img src="dist/images/bug.png" alt="png" class="dezinsection__bug">
+          <p class="dezinsection__li-p">Знищення тарганів</p>
+        </li>
+        <li class="dezinsection__li">
+          <img src="dist/images/bug.png" alt="png" class="dezinsection__bug">
+          <p class="dezinsection__li-p">Знищення блох</p>
+        </li>
+        <li class="dezinsection__li">
+          <img src="dist/images/bug.png" alt="png" class="dezinsection__bug">
+          <p class="dezinsection__li-p">Знищення мух</p>
+        </li>
+        <li class="dezinsection__li">
+          <img src="dist/images/bug.png" alt="png" class="dezinsection__bug">
+          <p class="dezinsection__li-p">Знищення мурах</p>
+        </li>
+        <li class="dezinsection__li">
+          <img src="dist/images/bug.png" alt="png" class="dezinsection__bug">
+          <p class="dezinsection__li-p">Знищення комах</p>
+        </li>
+        <li class="dezinsection__li">
+          <img src="dist/images/bug.png" alt="png" class="dezinsection__bug">
+          <p class="dezinsection__li-p">Знищення шашеля <br>(короїд)</p>
+        </li>
+        <li class="dezinsection__li">
+          <img src="dist/images/bug.png" alt="png" class="dezinsection__bug">
+          <p class="dezinsection__li-p">Знищення шершню</p>
+        </li>
+      </ul>
+      <a href="html/dezinsection.html" class="dezinsection__button">Детальніше</a>
+    </div>
+    <div class="dezinfection">
+      <h1 class="dezinfection__main-text">Дезінфекція</h1>
+      <div class="dezinfection__stick"></div>
+      <div class="dezinfection__info">
+        <ul class="dezinfection__ul">
+          <li class="dezinfection__li">
+            <img src="dist/images/virus.png" alt="png" class="deratization__virus">
+            <p class="dezinfection__li-p">Обробка від грибка та цвілі</p>
+          </li>
+          <li class="dezinfection__li">
+            <img src="dist/images/virus.png" alt="png" class="deratization__virus">
+            <p class="dezinfection__li-p">Знезараження приміщень від вірусів (в т.ч. COVID-19)</p>
+          </li>
+          <li class="dezinfection__li">
+            <img src="dist/images/virus.png" alt="png" class="deratization__virus virus-relative">
+            <p class="dezinfection__li-p">Дезінфекція підприємств</p>
+          </li>
+          <li class="dezinfection__li">
+            <img src="dist/images/virus.png" alt="png" class="deratization__virus">
+            <p class="dezinfection__li-p">Дезінфекція квартир</p>
+          </li>
+          <li class="dezinfection__li">
+            <img src="dist/images/virus.png" alt="png" class="deratization__virus">
+            <p class="dezinfection__li-p">Знищення мурах</p>
+          </li>
+          <li class="dezinfection__li">
+            <img src="dist/images/virus.png" alt="png" class="deratization__virus">
+            <p class="dezinfection__li-p">Знищення запахів</p>
+          </li>
+        </ul>
+        <a href="html/dezinfection.html" class="dezinfection__button">Детальніше</a>
+      </div>
+    </div>
+  </section>
+  <section class="info-block">
+    <p class="info-block__text">Знищення тарганів та гризунів, видалення грибка<br> та цвілі у квартирах, будинках, приміщеннях та <br>підприємствах</p>
+    <p class="info-block__cities">Мукачево, Ужгород, Львів та Західний регіон</p>
+    <a  id="showForm" href="#" class="info-block__contact-btn">Зв’язатись з нами</a>
+    <div id="formContainer" style="display: none;">
+      <div class="main-form">
+        <button id="closeForm" class="close-button">×</button>
+        <p class="box">
+        </p>
+        <section class="position">
+          <section class="space-between">
+            <h1 class="form-sign">Замовити послугу</h1>
+          </section>
+          <p class="hr_or">
+            -
+          </p>
+        </section>
+        <form accept="#">
+          <div class="form-em">
+            <div class="form-container">
+              <input class="form-container__input" required placeholder="Ваше Ім'я" type="text">
+            </div>
+            <div class="form-container">
+              <input class="form-container__input" required type="text" name="phone" id="phone" placeholder="+380(00)000-00-00">
+            </div>
+            <div class="form-container">
+              <input class="form-container__input" placeholder="Ваш Email" required id="email" type="text">
+            </div>
+            <label class="checkbox-center">
+              <input required  class="checkbox" type="checkbox" name="checkbox">
+              <span class="custom-checkbox">
+
+                    </span>
+              <h1>
+                Я ознайомлений та приймаю правила обробки персональних даних
+              </h1>
+            </label>
+            <button class="sumbit" type="submit">
+              <span> Замовити послугу</span>
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <section id="advantages" class="advantages">
+    <h1 class="advantages__h1">Переваги роботи з нами</h1>
+
+    <div class="advantages__main ">
+      <div class="advantages__main-grid">
+
+            <div class="advantages__main__grid-item">
+              <img src="dist/images/image1.png" alt="image" class="advantages__image">
+              <article class="advantages__main__grid-p">
+                <p>Безкоштовий виїзд<br></p>
+              Ввиїзд фахівця, оцінка ситуації, оперативність виконання робіт, повні рекомендації щодо запобігання нових звернень</article>
+            </div>
+            <div class="advantages__main__grid-item">
+              <img src="dist/images/image2.png" alt="image" class="advantages__image">
+              <article class="advantages__main__grid-p">
+                <p>Краще співвідношення Ціна/Якість<br></p>
+                Переконайтеся у цьому самі. Зателефонуйте нам прямо зараз.</article>
+            </div>
+            <div class="advantages__main__grid-item">
+            <img src="dist/images/image3.png" alt="image" class="advantages__image">
+            <article class="advantages__main__grid-p">
+              <p>Договір, форма оплати<br></p>
+              Укладання договору, Оплата зручним для Вас способом, безготівковий розрахунок. Надання повного пакета необхідних документів.</article>
+          </div>
+            <div class="advantages__main__grid-item">
+              <img src="dist/images/image4.png" alt="image" class="advantages__image">
+              <article class="advantages__main__grid-p">
+                <p>Сучасне обладнання<br></p>
+                Обробка проводиться спеціальними генераторами (холодного та гарячого туману) останнього покоління, що у десятки разів підвищує ефективність</article>
+            </div>
+            <div class="advantages__main__grid-item">
+              <img src="dist/images/image5.png" alt="image" class="advantages__image">
+              <article class="advantages__main__grid-p">
+                <p>Безпечність<br></p>
+                Використовуємо тільки сертифіковані препарати, безпечні для людей, домашніх тварин і рослин.</article>
+            </div>
+            <div class="advantages__main__grid-item">
+              <img src="dist/images/image6.png" alt="image" class="advantages__image">
+              <article class="advantages__main__grid-p">
+                <p>Гарантії<br></p>
+                Надаємо офіційні гарантії, працюємо за договором.</article>
+            </div>
+
+            <div class="advantages__main__grid-item advantages-relative">
+              <img src="dist/images/image7.png" alt="image" class="advantages__image">
+              <article class="advantages__main__grid-p">
+                <p>Договір, форма оплати<br></p>
+                Укладання договору, Оплата зручним для Вас способом, безготівковий розрахунок. Надання повного пакета необхідних документів.</article>
+            </div>
+          
+      </div>
+  </div>
+  </section>
+
+
+
+  <section class="guarantee">
+    <h1 class="guarantee__h1">
+      Гарантія якості
+    </h1>
+    <div class="guarantee__grid">
+      <div class="guarantee__grid-1 guarantee__grid-bl">
+        <img class="guarantee__img" src="dist/images/house.png" alt="house">
+        <p class="guarantee__p">
+          Квартири, приватні будинки
+        </p>
+        <div class="guarantee__price guarantee__price-1">
+          <h1 class="guarantee__price-h1">Ціна</h1>
+          <p class="guarantee__price-p">Від 850грн.*</p>
+        </div>
+
+      </div>
+      <div class="guarantee__grid-6 guarantee__grid-bl">
+        <img class="guarantee__img" src="dist/images/entrance.png" alt="house">
+        <p class="guarantee__p">
+          Будинки,
+          під’їзди
+        </p>
+        <div class="guarantee__price guarantee__price-2">
+          <h1 class="guarantee__price-h1">Ціна</h1>
+          <p class="guarantee__price-p">Від 1250грн.*</p>
+        </div>
+      </div>
+      <div class="guarantee__grid-8 guarantee__grid-bl">
+        <img class="guarantee__img" src="dist/images/hotel.png" alt="house">
+        <p class="guarantee__p">
+          Готелі,
+          хостели
+        </p>
+        <div class="guarantee__price guarantee__price-3">
+          <h1 class="guarantee__price-h1">Ціна</h1>
+          <p class="guarantee__price-p">Від 1250грн.*</p>
+        </div>
+      </div>
+      <div class="guarantee__grid-2 guarantee__grid-bl">
+        <img class="guarantee__img" src="dist/images/cafe.png" alt="house">
+        <p class="guarantee__p">
+          Громадське харчування, кафе,
+          їдальні
+        </p>
+        <div class="guarantee__price guarantee__price-4">
+          <h1 class="guarantee__price-h1">Ціна</h1>
+          <p class="guarantee__price-p">Від 1500грн.*</p>
+        </div>
+      </div>
+      <div class="guarantee__grid-3 guarantee__grid-bl">
+        <img class="guarantee__img" src="dist/images/lunch.png" alt="house">
+        <p class="guarantee__p">
+          Харчові
+          приміщення
+        </p>
+        <div class="guarantee__price guarantee__price-5">
+          <h1 class="guarantee__price-h1">Ціна</h1>
+          <p class="guarantee__price-p">Від 1500грн.*</p>
+        </div>
+      </div>
+      <div class="guarantee__grid-4 guarantee__grid-bl">
+        <img class="guarantee__img" src="dist/images/shop.png" alt="house">
+        <p class="guarantee__p">
+          Продуктові магазини
+        </p>
+        <div class="guarantee__price guarantee__price-6">
+          <h1 class="guarantee__price-h1">Ціна</h1>
+          <p class="guarantee__price-p">Від 1500грн.*</p>
+        </div>
+      </div>
+      <div class="guarantee__grid-5 guarantee__grid-bl">
+        <img class="guarantee__img" src="dist/images/storage.png" alt="house">
+        <p class="guarantee__p">
+          Складскі
+          приміщення
+        </p>
+        <div class="guarantee__price guarantee__price-7">
+          <h1 class="guarantee__price-h1">Ціна</h1>
+          <p class="guarantee__price-p">Від 2500грн.*</p>
+        </div>
+      </div>
+
+      <div class="guarantee__grid-7 guarantee__grid-bl">
+        <img class="guarantee__img" src="dist/images/basement.png" alt="house">
+        <p class="guarantee__p">
+          Підвальні приміщення
+        </p>
+        <div class="guarantee__price guarantee__price-8">
+          <h1 class="guarantee__price-h1">Ціна</h1>
+          <p class="guarantee__price-p">Від 2500грн.*</p>
+        </div>
+      </div>
+
+      <div class="guarantee__grid-9 guarantee__grid-bl">
+        <img class="guarantee__img" src="dist/images/school.png" alt="house">
+        <p class="guarantee__p">
+          Школи, садочки, лікарні
+        </p>
+        <div class="guarantee__price guarantee__price-9">
+          <h1 class="guarantee__price-h1">Ціна</h1>
+          <p class="guarantee__price-p">Від 2500грн.*</p>
+        </div>
+      </div>
+    </div>
+    
+    <h6 class="price__h6">
+      * - Ціни мають орієнтовний характер, точна ціна послуг буде складена після повного аналізу ситуації з урахуванням обсягу робіт.
+    </h6>
+  </section>
+</main>
+<footer id="foo" class="foo">
+  <div class="foo__contain">
+  <img src="dist/images/logo-white.png" alt="logo" class="foo__logo">
+  <h1 class="foo__h1">
+    ЗАЛИШИЛИСЯ ПИТАННЯ? <br> ПИШІТЬ БУДЬ-ЯКИМ ЗРУЧНИМ СПОСОБОМ
+  </h1>
+  </div>
+  <div class="foo__container">
+  <div class="foo__img">
+    <a target="_blank" href="https://t.me/beezdar"><img class="foo__image foo__image-1 foo-hover-img" src="dist/images/telegram.png" alt="telegram"></a>
+    <a target="_blank" href="https://www.instagram.com/feedderrr/">
+      <img class="foo__image-2 foo__image foo-hover-img" src="dist/images/instagram.png" alt="instagram">
+    </a>
+    <a target="_blank" href="https://www.facebook.com/">
+      <img class="foo__image-3 foo__image foo-hover-img" src="dist/images/facebook.png" alt="facebook">
+    </a>
+  </div>
+    <div class="foo-block">
+      <img src="./src/images/image_1.png" alt="img 1" class="foo-block-advent" draggable="false">
+      <img src="./src/images/image_2.png" alt="img 2" class="foo-block-advent" draggable="false">
+      <img src="./src/images/image_3.png" alt="img 3" class="foo-block-advent" draggable="false">
+      <img src="./src/images/image_4.png" alt="img 4" class="foo-block-advent" draggable="false">
+    </div>
+    <div>
+  <h2 title="Vodafone" class="foo__h2">
+    +380 (99) 157 51 51
+  </h2>
+    <h2 title="Київстар" class="foo__h2">
+      +380 (97) 157 51 51
+    </h2>
+    </div>
+  </div>
+</footer>
+<script src="https://unpkg.com/imask"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="dist/scripts/scripts.min.js"></script>
+<script src="src/scripts/slick.min.js"></script>
+</body>
+</html>

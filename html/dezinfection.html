@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>Mousa</title>
+  <link href="https://fonts.cdnfonts.com/css/montserrat" rel="stylesheet">
+  <link rel="stylesheet" href="../dist/styles/styles.css">
+</head>
+<body>
+<header class="header">
+  <div class="header__main">
+    <a  href="../index.html">
+      <img src="../dist/images/logo.png" alt="logo" class="header__logo">
+    </a>
+    <a  href="http://localhost:3002" class="header__online-shop">Онлайн-магазин</a>
+    <div class="vertical-stick"></div>
+    <ul class="header__nav-ul">
+      <div class="div-contain-shop main__nav-li" onmouseover="showWords(this, 'wordBlock3')" onmouseout="hideWords('wordBlock3')">
+        <li class="header__nav-li" >
+          <a href="../index.html" class="main__nav-li"  >Послуги</a>
+        </li>
+        <div id="wordBlock3" class="hidden__shop" >
+          <a href="deratization.html">Дератизація</a>
+          <a href="dezinsection.html" >Дезінсекція</a>
+        </div>
+      </div>
+      <a href="#foo">
+        <li class="header__nav-li contact">Контакти</li>
+      </a>
+    </ul>
+    <div class="header__burger-btn">
+      <img src="../dist/images/menu.png" alt="menu" class="header__open-menu">
+      <img src="../dist/images/cross.png" alt="cross" class="header__cross menu__hidden">
+    </div>
+  </div>
+  <div class="header__burger menu__hidden">
+    <a href="http://localhost:3002" class="header__burger-online-shop">Онлайн-магазин</a>
+    <div class="stick"></div>
+    <ul class="header__burger-menu-ul">
+      <li class="header__burger-menu-li"><a href="http://localhost:3000">Послуги</a></li>
+      <li class="header__burger-menu-li"><a href="http://localhost:3000#advantages">Про нас</a></li>
+      <li class="header__burger-menu-li"><a href="#foo">Контакти</a></li>
+    </ul>
+  </div>
+</header>
+<main>
+  <article class="dezinfection__site">
+    <h1 class="dezinfection__h1">
+      ДЕЗІНФЕКЦІЯ
+    </h1>
+    <a id="showForm" href="#" class="dezinfection__a">
+      ЗАМОВИТИ ПОСЛУГУ
+    </a>
+    <div id="formContainer" style="display: none;">
+      <div class="main-form">
+        <button id="closeForm" class="close-button">×</button>
+        <p class="box">
+        </p>
+        <section class="position">
+          <section class="space-between">
+            <h1 class="form-sign">Замовити послугу</h1>
+          </section>
+          <p class="hr_or">
+            -
+          </p>
+        </section>
+        <form accept="#">
+          <div class="form-em">
+            <div class="form-container">
+              <input class="form-container__input" placeholder="Ваше Ім'я" required="" type="text">
+            </div>
+            <div class="form-container">
+              <input class="form-container__input" type="text" name="phone" id="phone" placeholder="+380(00)000-00-00">
+            </div>
+            <div class="form-container">
+              <input class="form-container__input" placeholder="Ваш Email" required="" type="text">
+            </div>
+            <label class="checkbox-center">
+              <input  class="checkbox" type="checkbox" name="checkbox">
+              <span class="custom-checkbox">
+
+                    </span>
+              <h1>
+                Я ознайомлений та приймаю правила обробки персональних даних
+              </h1>
+            </label>
+            <button class="sumbit" type="submit">
+              <a href="#"> Замовити послугу</a>
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <img class="dezinfection__img" src="virus.png" alt="virus">
+  </article>
+  <section class="dezinfection-info">
+    <div class="dezinfection-info__element-1">
+      ДЕЗІНФЕКЦІЯ – це комплекс спеціальних заходів, спрямованих на знищення шкідливих мікроорганізмів та збудників інфекційних захворювань.
+      <br> <br>
+      Є такі методи дезінфекції:
+      <ul class="dezinfection-info__ul">
+        <li>Фізичний метод, в основі якого лежить термообробка. Тобто, для знищення шкідливих мікроорганізмів та вірусів використовується дія ультрафіолетового опромінення, кип’ятіння тощо.</li>
+        <li>Механічний метод полягає у вологому прибиранні або прибиранні пилососом, фільтрації води та повітря, митті рук та предметів. Але варто зауважити, що механічна дезінфекція виконує лише допоміжну функцію, тобто не знищує віруси та мікроби в цілому.</li>
+        <li>Хімічний метод є найбільш ефективним у боротьбі з патогенними мікроорганізмами на будь-яких поверхнях та предметах, адже в їх основі лежить використання різноманітних хімічних речовин та їхніх сполук, які мають антимікробну активність широкого спектру, добре розчиняються у воді, є безпечними для людей та навколишнього середовища, а також мають не різкий запах.</li>
+        <li>В основі комбінованого методу є поєднання декількох методів дезінфекції, які застосовуються одночасно.</li>
+      </ul>
+    </div>
+    <div class="dezinfection-info__element-2">
+      <h1 class="dezinfection-info__h1">
+        Дезінфекція приміщень на виробництвах та складах
+      </h1>
+      <p class="dezinfection-info__p">
+        Дезінфекція є важливим етапом у забезпеченні продовольчої безпеки на виробництві та складах. Вона необхідна для зниження ризику зараження вірусами, бактеріями та іншими мікроорганізмами, що можуть поширюватися через повітря або контакт з поверхнями.
+        <br>
+        <br>
+      </p>
+      <h2 class="dezinfection-info__h2">
+        Засоби дезінфекції: методи та види <br> <br>
+      </h2>
+      <p class="dezinfection-info__p">
+        Для дезінфекції приміщень на виробництвах та складах використовують різноманітні засоби та методи.
+        <br>
+        <br>
+        Для початку, давайте розберемося, які бувають види процедури:
+        <br>
+        <br>
+      </p>
+      <ul class="dezinfection-info__ul-2">
+        <li>Фізичний метод, в основі якого лежить термообробка. Тобто, для знищення шкідливих мікроорганізмів та вірусів використовується дія ультрафіолетового опромінення, кип’ятіння тощо.</li>
+        <li>Механічний метод полягає у вологому прибиранні або прибиранні пилососом, фільтрації води та повітря, митті рук та предметів. Але варто зауважити, що механічна дезінфекція виконує лише допоміжну функцію, тобто не знищує віруси та мікроби в цілому.</li>
+        <li>Хімічний метод є найбільш ефективним у боротьбі з патогенними мікроорганізмами на будь-яких поверхнях та предметах, адже в їх основі лежить використання різноманітних хімічних речовин та їхніх сполук, які мають антимікробну активність широкого спектру, добре розчиняються у воді, є безпечними для людей та навколишнього середовища, а також мають не різкий запах.</li>
+        <li>В основі комбінованого методу є поєднання декількох методів дезінфекції, які застосовуються одночасно.</li>
+      </ul>
+      <p class="dezinfection-info__p">
+        Невикористання обробки на виробництві може мати наступні негативні наслідки: поширення захворювань, погіршення якості продукту, втрата репутації та порушення нормативних вимог, зокрема штрафи та скарги.
+        <br> <br>
+        Таким чином, обробка на виробництві є важливим елементом підтримання здоров'я та безпеки працівників, забезпечення якості продукції та збереження репутації компанії.
+        <br> <br>
+        Замовити дезінфекцію ви можете заповнивши форму у нас на сайті або за телефоном <span class="phone-are">+380 (99) 157-51-51</span>
+      </p>
+    </div>
+  </section>
+</main>
+<footer id="foo" class="dezinfection__foo">
+  <div class="dezinfection-foo__contain">
+    <img src="logo.png" alt="logo" class="dezinfection-foo__logo">
+    <h1 class="dezinfection-foo__h1-black">
+      ЗАЛИШИЛИСЯ ПИТАННЯ? <br> ПИШІТЬ БУДЬ-ЯКИМ ЗРУЧНИМ СПОСОБОМ
+    </h1>
+  </div>
+  <div class="dezinfection-foo__container">
+    <div class="dezinfection-foo__img">
+      <a target="_blank" href="https://t.me/beezdar"><img class="dezinfection-foo__image foo-hover-img" src="telegram-black.png" alt="telegram"></a>
+      <a target="_blank" href="https://www.instagram.com/feedderrr/">
+        <img class="dezinfection-foo__image foo-hover-img" src="instagram-black.png" alt="instagram">
+      </a>
+      <a target="_blank" href="https://www.facebook.com/">
+        <img class="dezinfection-foo__image face foo-hover-img" src="facebook-black.png" alt="facebook">
+      </a>
+    </div>
+    <div>
+      <h2 title="Vodafone" class="dezinfection-foo__h2-black">
+        +380 (99) 157 51 51
+      </h2>
+      <h2 title="Київстар" class="dezinfection-foo__h2-black">
+        +380 (97) 157 51 51
+      </h2>
+    </div>
+  </div>
+</footer>
+<script src="https://unpkg.com/imask"></script>
+<script src="/dist/scripts/scripts.min.js"></script>
+</body>
+</html>

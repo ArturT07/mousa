@@ -1,0 +1,98 @@
+body {
+  a {
+    text-decoration: none;
+    color: #171717;
+  }
+}
+.strong {
+  font-weight: 600;
+}
+.phone-are {
+  color: #62AE00;
+  font-weight: 600;
+}
+.foo__h2-black {
+  color: #171717;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.foo__h1-black {
+  color: #171717;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 40px;
+}
+.foo-hover-img:hover {
+  transition: 0.3s;
+  opacity: 50%;
+}
+
+
+.hidden__shop{
+  display: none;
+  z-index: 999;
+  position: fixed;
+  left: 54%;
+  top: 80px;
+  background: white;
+  font-size: 16px;
+  font-family: Montserrat;
+  padding-block: 20px;
+}
+.hidden__shop a {
+  color: #171717;
+  padding-block: 5px;
+  padding-inline: 20px;
+}
+.hidden__shop li {
+  padding-block: 5px;
+}
+.hidden__shop  a:hover {
+  color: #f7f7f7;
+  background-color: #66ce75;
+}
+
+.close-btn {
+  font-size: 50px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+.dez__a-hidden {
+  margin-top: 15px;
+}
+.div-contain-shop {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+}
+
+.hidden__shop-main{
+  display: none;
+  z-index: 999;
+  position: fixed;
+  left: 51%;
+  top: 80px;
+  background: white;
+  font-size: 16px;
+  font-family: Montserrat;
+  padding-block: 20px;
+}
+
+.hidden__shop-main a {
+  color: #171717;
+  padding-block: 7px;
+  padding-inline: 20px;
+}
+.hidden__shop-main li {
+  padding-block: 5px;
+}
+.hidden__shop-main  a:hover {
+  color: #f7f7f7;
+  background-color: #66ce75;
+}  

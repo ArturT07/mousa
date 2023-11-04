@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>Mousa</title>
+  <link href="https://fonts.cdnfonts.com/css/montserrat" rel="stylesheet">
+  <link rel="stylesheet" href="../dist/styles/styles.css">
+</head>
+<body>
+<header class="header">
+  <div class="header__main">
+    <a href="../index.html">
+      <img src="../dist/images/logo.png" alt="logo" class="header__logo">
+    </a>
+    <a href="http://localhost:3002" class="header__online-shop">Онлайн-магазин</a>
+    <div class="vertical-stick"></div>
+    <ul class="header__nav-ul">
+      <div class="div-contain-shop main__nav-li" onmouseover="showWords(this, 'wordBlock2')" onmouseout="hideWords('wordBlock2')">
+        <li class="header__nav-li" >
+          <a href="../index.html" class="main__nav-li">Послуги</a>
+        </li>
+        <div id="wordBlock2" class="hidden__shop" >
+          <a href="dezinsection.html" >Дезінсекція</a>
+          <a href="dezinfection.html">Дезінфекція</a>
+        </div>
+      </div>
+      <a href="#foo">
+        <li class="header__nav-li contact">Контакти</li>
+      </a>
+    </ul>
+    <div class="header__burger-btn">
+      <img src="../dist/images/menu.png" alt="menu" class="header__open-menu">
+      <img src="../dist/images/cross.png" alt="cross" class="header__cross menu__hidden">
+    </div>
+  </div>
+
+
+  <div class="header__burger menu__hidden">
+    <a href="http://localhost:3002" class="header__burger-online-shop">Онлайн-магазин</a>
+    <div class="stick"></div>
+    <ul class="header__burger-menu-ul">
+      <li class="header__burger-menu-li"><a href="http://localhost:3000">Послуги</a></li>
+      <li class="header__burger-menu-li"><a href="http://localhost:3000#advantages">Про нас</a></li>
+      <li class="header__burger-menu-li"><a href="#foo">Контакти</a></li>
+    </ul>
+  </div>
+</header>
+<main>
+  <article class="deratization__site">
+    <h1 class="deratization__h1">
+      ДЕРАТИЗАЦІЯ
+    </h1>
+    <a id="showForm" href="#" class="deratization__a">
+      ЗАМОВИТИ ПОСЛУГУ
+    </a>
+    <div id="formContainer" style="display: none;">
+      <div class="main-form">
+        <button id="closeForm" class="close-button">×</button>
+        <p class="box">
+        </p>
+        <section class="position">
+          <section class="space-between">
+            <h1 class="form-sign">Замовити послугу</h1>
+          </section>
+          <p class="hr_or">
+            -
+          </p>
+        </section>
+        <form accept="#">
+          <div class="form-em">
+            <div class="form-container">
+              <input class="form-container__input" placeholder="Ваше Ім'я" required="" type="text">
+            </div>
+            <div class="form-container">
+              <input class="form-container__input" type="text" name="phone" id="phone" placeholder="+380(00)000-00-00">
+            </div>
+            <div class="form-container">
+              <input class="form-container__input" placeholder="Ваш Email" required="" type="text">
+            </div>
+            <label class="checkbox-center">
+              <input  class="checkbox" type="checkbox" name="checkbox">
+              <span class="custom-checkbox">
+
+                    </span>
+              <h1>
+                Я ознайомлений та приймаю правила обробки персональних даних
+              </h1>
+            </label>
+            <button class="sumbit" type="submit">
+              <a href="#"> Замовити послугу</a>
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <img class="deratization__img" src="mouse.png" alt="mouse">
+  </article>
+  <section class="deratization-info">
+    <div class="deratization-info__element-1">
+      ДЕРАТИЗАЦІЯ – комплекс спеціальних заходів, спрямованих на знищення шкідливих гризунів (щурів, мишей, полівок та ін.). Зокрема, це боротьба з гризунами, які можуть завдати значні економічні збитки і є джерелами або переносниками інфекційних захворювань.<br> <br>
+      Дератизація представлена інтегрованими методами захисту від гризунів. Це використання відповідного обладнання та засобів для вилову, отруєння, та відлякування гризунів. Зокрема, для родентицидної принади використовуються принадні пастки різних модифікацій – пластикового та металевого зразків. Для вилову гризунів використовуються механічні та клейові пастки. <br> <br>
+      Для ліквідації та моніторингу гризунів використовується трьохрівневий захисний бар’єр:
+      <ul class="deratization-info__ul">
+        <li>Бар’єр № 1 – представляє собою встановлене дератизаційне обладнання по периметру паркану огорожі підприємства (зовнішній);</li>
+        <li>Бар’єр № 2 – представляє собою встановлене дератизаційне обладнання по периметру будівель – складських, виробничих та адміністративних (зовнішній);</li>
+        <li>Бар’єр №3 – представляє собою встановлене дератизаційне та інсектицидне обладнання внутрішнього периметру всіх без виключення приміщень (внутрішній);</li>
+      </ul>
+      <br>
+       Дератизаційні роботи включають в себе:
+      <br>
+      <ul class="deratization-info__ul">
+        <li>Установку різного типу обладнання;</li>
+        <li>Регулярну заміну родентицидної принади;</li>
+        <li>Моніторинг та обслуговування механічних пасток;</li>
+        <li>Утилізацію гризунів;</li>
+        <li>Ведення та облік моніторингової документації;</li>
+        <li>Аналіз динаміки чисельності та рекомендації щодо коригувальних дій.</li>
+      </ul>
+    </div>
+    <div class="deratization-info__element-2">
+      <h1 class="deratization-info__h1">
+        Дератизація - можливість знищити мишей назавжди
+      </h1>
+      <p class="deratization-info__p">
+        Поширення гризунів на вашому складі чи виробництві може принести значну шкоду вашому бізнесі. Вони розносять різні інфекційні захворювання (туляремія, чума та ін.) або знищують ваші продуктові запаси. Саме тому, важливо вчасно провести дератизацію приміщення.
+        Така процедура допоможе уникнути багатьох економічних проблем, убезпечити ваших працівників та забезпечити продовольчу безпеку. <br> <br>
+        Дератизація гризунів - це комплекс заходів, який допомагає знищувати або відлякувати паразитів за допомогою відповідного обладнання.
+        <br>
+        <br>
+      </p>
+      <h2 class="deratization-info__h2">
+        Послуги дератизації: як забезпечити ефективність <br> <br>
+      </h2>
+      <p class="deratization-info__p">
+        В першу чергу, важливо пам’ятати, що ця процедура повинна виконуватися професіоналами, які використовують спеціалізовані методи та обладнання. Самостійна дератизація мишей може не дати результату або зашкодити здоров’ю ваших працівників.
+        <br> <br>
+        Окрім того, для забезпечення максимальної ефективності важливо проводити профілактичні заходи, аби створити несприятливі умови для розмноження шкідників.
+        <br> <br>
+        Ми проводимо дератизацію в Україні за допомогою сучасного обладнання з міжнародним визнанням та дозволених препаратів, які є безпечними. Окрім того, надаємо усі сертифікати, дозвільні документи, медичні книги та звітну документацію.
+        <br> <br>
+        Пропонуємо оптимальну ціну на дератизацію у Києві, яка формується під ваш запит в залежності від площі приміщення, рівня поширення пацюків та кількості необхідного обладнання.
+        <br><br>
+        Замовити дератизацію ви можете заповнивши форму на нашому сайті або за телефоном <span class="phone-are">+380 (99) 157-51-51</span>
+      </p>
+    </div>
+  </section>
+</main>
+<footer id="foo" class="deratization__foo">
+  <div class="deratization-foo__contain">
+    <img src="logo.png" alt="logo" class="deratization-foo__logo">
+    <h1 class="deratization-foo__h1-black">
+      ЗАЛИШИЛИСЯ ПИТАННЯ? <br>ПИШІТЬ БУДЬ-ЯКИМ ЗРУЧНИМ СПОСОБОМ
+    </h1>
+  </div>
+  <div class="deratization-foo__container">
+    <div class="deratization-foo__img">
+      <a target="_blank" href="https://t.me/beezdar"><img class="deratization-foo__image foo-hover-img" src="telegram-black.png" alt="telegram"></a>
+      <a target="_blank" href="https://www.instagram.com/feedderrr/">
+        <img class="deratization-foo__image foo-hover-img" src="instagram-black.png" alt="instagram">
+      </a>
+      <a target="_blank" href="https://www.facebook.com/">
+        <img class="deratization-foo__image face foo-hover-img" src="facebook-black.png" alt="facebook">
+      </a>
+    </div>
+    <div>
+      <h2 title="Vodafone" class="deratization-foo__h2-black">
+        +380 (99) 157 51 51
+      </h2>
+      <h2 title="Київстар" class="deratization-foo__h2-black">
+        +380 (97) 157 51 51
+      </h2>
+    </div>
+  </div>
+</footer>
+<script src="https://unpkg.com/imask"></script>
+<script src="/dist/scripts/scripts.min.js"></script>
+</body>
+</html>

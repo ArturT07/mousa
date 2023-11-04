@@ -1,0 +1,385 @@
+@media screen and (min-device-width: 1300px){
+  .deratization__site {
+    margin-top: 80px;
+    background-color: #66B095;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding-left: 250px;
+    margin-bottom: 50px;
+  }
+  .deratization__h1 {
+    color: #171717;
+    font-family: Montserrat;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+  }
+  .deratization__img {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    right: 200px;
+  }
+  .deratization__a {
+    color: #F7F7F7;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    padding-block: 40px;
+    padding-inline: 20px;
+    width: 360px;
+    border-radius: 10px;
+    background-color: #171717;
+  }
+  .deratization-info {
+    width: 1400px;
+    margin: 0 auto;
+    font-size: 20px;
+    font-family: Montserrat;
+  }
+  .deratization-info__element-1 {
+    background-color: rgb(175,212,198);
+    padding-inline: 50px;
+    padding-block: 80px;
+    border-radius: 20px;
+    line-height: 35px;
+    color: #171717;
+  }
+  .deratization-info__ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  .deratization-info__element-2 {
+    margin-inline: 15px;
+    margin-block: 80px;
+    line-height: 35px;
+    color: #171717;
+  }
+  .deratization-info__h1 {
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 30px;
+  }
+  .deratization-info__p {
+    color: rgba(23, 23, 23, 0.60);
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+  .deratization-info__h2 {
+    color: rgba(23, 23, 23, 0.60);
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .deratization__foo {
+    background-color: #66B095;
+    padding-block: 50px;
+    padding-inline: 130px;
+  }
+  .deratization-foo__contain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .deratization-foo__logo {
+    width: 300px;
+    margin-bottom: 20px;
+  }
+  .deratization-foo__h2-black {
+    font-size: 30px;
+    font-family: Montserrat;
+  }
+  .deratization-foo__h1-black {
+    font-size: 30px;
+    font-family: Montserrat;
+    text-align: center;
+    line-height: 50px;
+  }
+  .deratization-foo__image {
+    width: 50px;
+    margin-right: 20px;
+  }
+  .deratization-foo__img {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+  }
+  .face {
+    width: 30px;
+  }
+  .deratization-foo__h1-black {
+    margin-block: 10px;
+  }
+  .deratization-foo__container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-device-width: 501px) and (max-device-width: 1299px) {
+  .deratization__site {
+    margin-top: 80px;
+    background-color: #66B095;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+  .deratization__h1 {
+    color: #171717;
+    font-family: Montserrat;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 900;
+    margin-top: 20px;
+    line-height: normal;
+    margin-left: 20px;
+  }
+  .deratization__img {
+    width: 250px;
+    position: absolute;
+    right: 10px;
+  }
+  .deratization__a {
+    color: #F7F7F7;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    padding-block: 40px;
+    padding-inline: 20px;
+    width: 265px;
+    border-radius: 10px;
+    background-color: #171717;
+    margin-left: 20px;
+  }
+  .deratization-info {
+    width: 100%;
+    margin: 0 auto;
+    font-size: 15px;
+    font-family: Montserrat;
+  }
+  .deratization-info__element-1 {
+    background-color: rgb(175,212,198);
+    padding-inline: 15px;
+    padding-block: 80px;
+    border-radius: 20px;
+    line-height: 20px;
+    color: #171717;
+  }
+  .deratization-info__ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  .deratization-info__element-2 {
+    margin-inline: 15px;
+    margin-block: 80px;
+    line-height: 35px;
+    color: #171717;
+  }
+  .deratization-info__h1 {
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 30px;
+  }
+  .deratization-info__p {
+    color: rgba(23, 23, 23, 0.60);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+  .deratization-info__h2 {
+    color: rgba(23, 23, 23, 0.60);
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .deratization__foo {
+    background-color: #66B095;
+    padding-block: 50px;
+    padding-inline: 30px;
+  }
+  .deratization-foo__contain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .deratization-foo__logo {
+    width: 250px;
+    margin-bottom: 20px;
+  }
+  .deratization-foo__h2-black {
+    font-size: 20px;
+    font-family: Montserrat;
+  }
+  .deratization-foo__h1-black {
+    font-size: 25px;
+    font-family: Montserrat;
+    text-align: center;
+  }
+  .deratization-foo__image {
+    width: 50px;
+    margin-right: 20px;
+  }
+  .deratization-foo__img {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+  }
+  .face {
+    width: 30px;
+  }
+  .deratization-foo__h1-black {
+    margin-block: 10px;
+  }
+  .deratization-foo__container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-device-width: 500px) {
+  .deratization__site {
+    margin-top: 80px;
+    background-color: #66B095;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+  .deratization__h1 {
+    color: #171717;
+    font-family: Montserrat;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 900;
+    margin-top: 20px;
+    line-height: normal;
+  }
+  .deratization__img {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    right: 200px;
+    display: none;
+  }
+  .deratization__a {
+    color: #F7F7F7;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    padding-block: 40px;
+    padding-inline: 20px;
+    width: 265px;
+    border-radius: 10px;
+    background-color: #171717;
+  }
+  .deratization-info {
+    width: 100%;
+    margin: 0 auto;
+    font-size: 13px;
+    font-family: Montserrat;
+  }
+  .deratization-info__element-1 {
+    background-color: rgb(175,212,198);
+    padding-inline: 15px;
+    padding-block: 80px;
+    border-radius: 20px;
+    line-height: 20px;
+    color: #171717;
+  }
+  .deratization-info__ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  .deratization-info__element-2 {
+    margin-inline: 15px;
+    margin-block: 80px;
+    line-height: 35px;
+    color: #171717;
+  }
+  .deratization-info__h1 {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  .deratization-info__p {
+    color: rgba(23, 23, 23, 0.60);
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+  .deratization-info__h2 {
+    color: rgba(23, 23, 23, 0.60);
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .deratization__foo {
+    background-color: #66B095;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+  }
+  .deratization-foo__logo {
+    width: 200px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .deratization-foo__h2-black {
+    font-size: 15px;
+    font-family: Montserrat;
+  }
+  .deratization-foo__image {
+    width: 30px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+  }
+  .deratization-foo__img {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+  }
+  .deratization-foo__contain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .deratization-foo__h1-black {
+    font-family: Montserrat;
+    text-align: center;
+  }
+  .face {
+    width: 20px;
+  }
+}
